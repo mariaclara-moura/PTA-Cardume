@@ -1,0 +1,1 @@
+export const PAYMENT_URL = "https://pay.kiwify.com.br/9C28faB"

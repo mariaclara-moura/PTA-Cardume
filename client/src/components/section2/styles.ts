@@ -1,6 +1,7 @@
 import { constants } from 'fs/promises';
 import styled from 'styled-components';
 import { FundoSection2 } from 'assets';
+import * as Constants from '../../utils/constants';
 
 export const Container1 = styled.div`
   width: 100%;
@@ -142,7 +143,7 @@ export const ShoppingCartIcon = styled.img`
 `;
 
 export const handleButtonClick = () => {
-    window.open('https://pay.kiwify.com.br/UifdbdC', '_blank');  
+    window.open(Constants.PAYMENT_URL, '_blank');  
   };
 
 

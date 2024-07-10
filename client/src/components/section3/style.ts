@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import * as Constants from '../../utils/constants';
 
 export const HomeContainer = styled.div`
 width: 100%;
@@ -133,5 +134,5 @@ line-height: 20px; /* 100% */
 `;
 
 export const handleButtonClick = () => {
-    window.open('https://pay.kiwify.com.br/UifdbdC', '_blank');  
+    window.open(Constants.PAYMENT_URL, '_blank');  
   };
